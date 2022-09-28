@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color:  #c6eced;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {    
+    margin-top: 40px;
+    
+}
+.logo img {   
+        height: 85px;         
+}
+
+.busca  {
+    margin: 20px;;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.busca form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.busca input {
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    width: 82%;
+    outline: none;
+    font-size: 20px;
+    padding:  0 40px;    
+}
+.busca input::placeholder{
+    color: rgb(203, 198, 198);
+}
+.busca input:hover{
+    box-shadow: 1px 1px 8px 1px  #3163b1;
+    outline: none;
+}
+.busca input:active{
+    box-shadow: 1px 1px 8px 1px  #3163b1;
+    outline: none;
+}
+
+.busca button {   
+    height:  50px;
+    width: 120px;
+    background-color: #3163b1;
+    color: #f7c915;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;        
+}
+.busca button:hover {
+    background-color:#f7c915;
+    color: #3163b1;
+    transition: 1s;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.card {
+   background-color:  #46d1b0;    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding:  20px 15px;
+   border-radius: 20px;
+}
+.card h3 {
+    margin-bottom: 0%;
+    color: white ;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card p {
+    margin-top: 0%;
+    color: #206d5b ;
+    font-weight: bold;
+}
+
+.pokemon {
+    background-color: #92e6ce ;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokemon img {
+    width: 170px;
+}
+
+#charmander{
+    background-color:#f96b6f ;
+}
+
+#charmander p {
+    color: #7d0c10;
+}
+
+#charmander .pokemon {
+    background-color:  #f6a7a8;
+}
